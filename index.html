@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <form>  
+        <h1>estágio fontend</h1>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" class="inId"  minlength="3" required>
+
+        <label for="sobreNome">Sobrenome:</label>
+        <input type="text" id="sobreNome" class="inId" minlength="3" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" class="inId" required id="email">
+
+        <p>conhecimetos em:</p>
+
+        <label>
+            <input type="checkbox" value="html" class="inCheck">
+            <span></span>
+            HTML
+        </label>
+
+        <label>
+            <input type="checkbox" value="css" class="inCheck">
+            <span></span>
+            CSS
+        </label>
+
+        <label>
+            <input type="checkbox" value="javascript" class="inCheck">
+            <span></span>
+            JavaScript
+        </label>
+        <input type="submit" value="enviar">
+    </form>
+    
+</body>
+</html>
